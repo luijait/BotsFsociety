@@ -1,5 +1,5 @@
 import telebot
-import re
+#import re
 def zonashorarias(hora):
     horas = { "HORA DE LA CLASE!!!:\n 🇪🇸 España: " : hora, "🇵🇪 Peru: " : hora - 6,"🇩🇴 Republica Dominicana: " : hora - 4, "🇲🇽 Mexico: " : hora - 7, "🇪🇸 Canarias: " : hora - 1, "🇻🇪 Venezuela: " : hora - 5}
     return horas
