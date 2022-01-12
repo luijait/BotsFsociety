@@ -3,7 +3,7 @@ import re
 def zonashorarias(hora):
     horas = { "HORA DE LA CLASE!!!:\n 🇪🇸 España: " : hora, "🇵🇪 Peru: " : hora - 6,"🇩🇴 Republica Dominicana: " : hora - 4, "🇲🇽 Mexico: " : hora - 7, "🇪🇸 Canarias: " : hora - 1, "🇻🇪 Venezuela: " : hora - 5}
     return horas
-token = '5025557251:AAHi8smeeuG7KQZINcqAwO1JpHRVopUDqdo'
+token = ""
 bot = telebot.TeleBot(token)
 @bot.message_handler(commands=["help"])
 def ayuda(message):
